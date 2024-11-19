@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Message xmlns="https://tempuri.org/">
+    <MessageId>string</MessageId>
+    <Description>string</Description>
+    <ResultValue>string</ResultValue>
+</Message>
+
+
+        <!--        GET /serviceconsulta.asmx/UpdateDataUser?userId=string&mail=string&telephone=string&preFix=string&telephoneType=string&programId=string HTTP/1.1-->
+        <!--        Host: wscabalindividuosdev.cabal.coop-->
+
+        <!--        HTTP/1.1 200 OK-->
+        <!--        Content-Type: text/xml; charset=utf-8-->
+        <!--        Content-Length: length-->

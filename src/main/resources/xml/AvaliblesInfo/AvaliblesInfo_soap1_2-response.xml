@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:soap12="https://www.w3.org/2003/05/soap-envelope">
+    <soap12:Body>
+        <AvaliblesInfoResponse xmlns="https://tempuri.org/">
+            <AvaliblesInfoResult>
+                <Components>
+                    <ComponentInfo>
+                        <Component>string</Component>
+                        <CardTitular>string</CardTitular>
+                        <Card>string</Card>
+                        <AmountAvailablePesos>string</AmountAvailablePesos>
+                        <AmountAvailablePesosShare>string</AmountAvailablePesosShare>
+                        <AmountAvailablePesosAdvance>string</AmountAvailablePesosAdvance>
+                        <AmountAvailablePesosAdvanceShare>string</AmountAvailablePesosAdvanceShare>
+                        <AmountAvailableDollar>string</AmountAvailableDollar>
+                        <AmountAvailableDollarShare>string</AmountAvailableDollarShare>
+                        <AmountAvailableDollarAdvance>string</AmountAvailableDollarAdvance>
+                        <AmountAvailableDollarAdvanceShare>string</AmountAvailableDollarAdvanceShare>
+                    </ComponentInfo>
+                    <ComponentInfo>
+                        <Component>string</Component>
+                        <CardTitular>string</CardTitular>
+                        <Card>string</Card>
+                        <AmountAvailablePesos>string</AmountAvailablePesos>
+                        <AmountAvailablePesosShare>string</AmountAvailablePesosShare>
+                        <AmountAvailablePesosAdvance>string</AmountAvailablePesosAdvance>
+                        <AmountAvailablePesosAdvanceShare>string</AmountAvailablePesosAdvanceShare>
+                        <AmountAvailableDollar>string</AmountAvailableDollar>
+                        <AmountAvailableDollarShare>string</AmountAvailableDollarShare>
+                        <AmountAvailableDollarAdvance>string</AmountAvailableDollarAdvance>
+                        <AmountAvailableDollarAdvanceShare>string</AmountAvailableDollarAdvanceShare>
+                    </ComponentInfo>
+                </Components>
+                <MessageId>string</MessageId>
+                <Description>string</Description>
+            </AvaliblesInfoResult>
+        </AvaliblesInfoResponse>
+    </soap12:Body>
+</soap12:Envelope>

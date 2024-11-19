@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutomaticDebits xmlns="https://tempuri.org/">
+    <Debits>
+        <Debit>
+            <CommerceNumber>string</CommerceNumber>
+            <FancyName>string</FancyName>
+            <CategoryDescription>string</CategoryDescription>
+            <TelephoneNumber>string</TelephoneNumber>
+            <Home>string</Home>
+            <Date>string</Date>
+            <Amount>string</Amount>
+            <Card>string</Card>
+            <Name>string</Name>
+        </Debit>
+        <Debit>
+            <CommerceNumber>string</CommerceNumber>
+            <FancyName>string</FancyName>
+            <CategoryDescription>string</CategoryDescription>
+            <TelephoneNumber>string</TelephoneNumber>
+            <Home>string</Home>
+            <Date>string</Date>
+            <Amount>string</Amount>
+            <Card>string</Card>
+            <Name>string</Name>
+        </Debit>
+    </Debits>
+    <MessageId>string</MessageId>
+    <Description>string</Description>
+</AutomaticDebits>
+
+        <!--        GET /serviceconsulta.asmx/AutomaticDebitsInfo?accountNumber=string&component=string&dateFrom=string&dateUntil=string&web=string&userId=string&programId=string HTTP/1.1-->
+        <!--        Host: wscabalindividuosdev.cabal.coop-->
+
+        <!--        HTTP/1.1 200 OK-->
+        <!--        Content-Type: text/xml; charset=utf-8-->
+        <!--        Content-Length: length-->

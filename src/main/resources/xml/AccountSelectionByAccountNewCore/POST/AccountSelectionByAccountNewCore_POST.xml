@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Accounts xmlns="https://tempuri.org/">
+    <Name>string</Name>
+    <Account>
+        <Account>
+            <AccountNumber>string</AccountNumber>
+            <AccountType>string</AccountType>
+            <IssuerEntityId>string</IssuerEntityId>
+            <IssuerEntityDescription>string</IssuerEntityDescription>
+            <IssuerBranchId>string</IssuerBranchId>
+            <IssuerBranchDescription>string</IssuerBranchDescription>
+            <Component>string</Component>
+            <ComponentDescription>string</ComponentDescription>
+            <ExpirationDate>string</ExpirationDate>
+            <CuitNumber>string</CuitNumber>
+            <SenialKadicard>string</SenialKadicard>
+            <AffinityGroup>string</AffinityGroup>
+            <ProductSubcategory>string</ProductSubcategory>
+            <SummaryModalitySignal>string</SummaryModalitySignal>
+            <AdministrationType>string</AdministrationType>
+            <Bup>string</Bup>
+            <GenderType>string</GenderType>
+            <CoreOrigin>string</CoreOrigin>
+            <TarjetaVirtual>string</TarjetaVirtual>
+        </Account>
+        <Account>
+            <AccountNumber>string</AccountNumber>
+            <AccountType>string</AccountType>
+            <IssuerEntityId>string</IssuerEntityId>
+            <IssuerEntityDescription>string</IssuerEntityDescription>
+            <IssuerBranchId>string</IssuerBranchId>
+            <IssuerBranchDescription>string</IssuerBranchDescription>
+            <Component>string</Component>
+            <ComponentDescription>string</ComponentDescription>
+            <ExpirationDate>string</ExpirationDate>
+            <CuitNumber>string</CuitNumber>
+            <SenialKadicard>string</SenialKadicard>
+            <AffinityGroup>string</AffinityGroup>
+            <ProductSubcategory>string</ProductSubcategory>
+            <SummaryModalitySignal>string</SummaryModalitySignal>
+            <AdministrationType>string</AdministrationType>
+            <Bup>string</Bup>
+            <GenderType>string</GenderType>
+            <CoreOrigin>string</CoreOrigin>
+            <TarjetaVirtual>string</TarjetaVirtual>
+        </Account>
+    </Account>
+    <LoginStatus>string</LoginStatus>
+    <MessageId>string</MessageId>
+    <Description>string</Description>
+</Accounts>
+
+        <!--        POST /serviceconsulta.asmx/AccountSelectionByAccountNewCore HTTP/1.1-->
+        <!--        Host: wscabalindividuosdev.cabal.coop-->
+        <!--        Content-Type: application/x-www-form-urlencoded-->
+        <!--        Content-Length: length-->
+
+        <!--        accountNumber=string&web=string&userId=string&programId=string-->
+        <!--        HTTP/1.1 200 OK-->
+        <!--        Content-Type: text/xml; charset=utf-8-->
+        <!--        Content-Length: length-->

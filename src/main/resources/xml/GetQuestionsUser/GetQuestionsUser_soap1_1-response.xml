@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <GetQuestionsUserResponse xmlns="https://tempuri.org/">
+            <GetQuestionsUserResult>
+                <Questions>
+                    <Question>
+                        <Topic>int</Topic>
+                        <Description>string</Description>
+                        <Answers xsi:nil="true" />
+                        <Number>int</Number>
+                        <CorrectAnswerNumber>int</CorrectAnswerNumber>
+                        <Type>int</Type>
+                    </Question>
+                    <Question>
+                        <Topic>int</Topic>
+                        <Description>string</Description>
+                        <Answers xsi:nil="true" />
+                        <Number>int</Number>
+                        <CorrectAnswerNumber>int</CorrectAnswerNumber>
+                        <Type>int</Type>
+                    </Question>
+                </Questions>
+                <ErrorId>string</ErrorId>
+                <ErrorDescription>string</ErrorDescription>
+            </GetQuestionsUserResult>
+        </GetQuestionsUserResponse>
+    </soap:Body>
+</soap:Envelope>

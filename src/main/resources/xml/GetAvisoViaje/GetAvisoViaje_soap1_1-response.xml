@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <GetAvisoViajeResponse xmlns="https://tempuri.org/">
+            <GetAvisoViajeResult>
+                <Avisos>
+                    <AvisoViaje>
+                        <CardNumber>string</CardNumber>
+                        <AccountNumber>string</AccountNumber>
+                        <AccountComponent>string</AccountComponent>
+                        <DateFrom>string</DateFrom>
+                        <DateUntil>string</DateUntil>
+                        <DateTransaction>string</DateTransaction>
+                        <Country>string</Country>
+                        <CodCountry>string</CodCountry>
+                        <Estado>string</Estado>
+                    </AvisoViaje>
+                    <AvisoViaje>
+                        <CardNumber>string</CardNumber>
+                        <AccountNumber>string</AccountNumber>
+                        <AccountComponent>string</AccountComponent>
+                        <DateFrom>string</DateFrom>
+                        <DateUntil>string</DateUntil>
+                        <DateTransaction>string</DateTransaction>
+                        <Country>string</Country>
+                        <CodCountry>string</CodCountry>
+                        <Estado>string</Estado>
+                    </AvisoViaje>
+                </Avisos>
+                <MessageId>string</MessageId>
+                <Description>string</Description>
+            </GetAvisoViajeResult>
+        </GetAvisoViajeResponse>
+    </soap:Body>

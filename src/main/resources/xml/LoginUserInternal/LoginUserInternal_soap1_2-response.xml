@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:soap12="https://www.w3.org/2003/05/soap-envelope">
+    <soap12:Body>
+        <LoginUserInternalResponse xmlns="https://tempuri.org/">
+            <LoginUserInternalResult>
+                <UserId>long</UserId>
+                <ResultId>string</ResultId>
+                <Description>string</Description>
+                <genderType>string</genderType>
+                <userName>string</userName>
+                <PasswordPolicyId>int</PasswordPolicyId>
+                <FecUltIng>string</FecUltIng>
+                <AssociatedEntity>
+                    <string>string</string>
+                    <string>string</string>
+                </AssociatedEntity>
+            </LoginUserInternalResult>
+        </LoginUserInternalResponse>
+    </soap12:Body>
+</soap12:Envelope>

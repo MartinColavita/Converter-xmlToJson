@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AccountSummariesResponse xmlns="https://tempuri.org/">
+    <exito>boolean</exito>
+    <ListDocCabalDTO>
+        <DocumentoCabalDTO>
+            <emisor>string</emisor>
+            <tipoDoc>string</tipoDoc>
+            <nroDoc>string</nroDoc>
+            <cuentaProducto>string</cuentaProducto>
+            <nomApe>string</nomApe>
+            <fechaCierreActual>dateTime</fechaCierreActual>
+            <fechaContenidoDesde>dateTime</fechaContenidoDesde>
+            <fechaContenidoHasta>dateTime</fechaContenidoHasta>
+            <id>int</id>
+            <pagoMinimo>decimal</pagoMinimo>
+            <piezaUnica>boolean</piezaUnica>
+            <saldoActualDolares>decimal</saldoActualDolares>
+            <saldoActualPesos>decimal</saldoActualPesos>
+            <sucursalRemitente>string</sucursalRemitente>
+            <fechaVencimiento>dateTime</fechaVencimiento>
+        </DocumentoCabalDTO>
+        <DocumentoCabalDTO>
+            <emisor>string</emisor>
+            <tipoDoc>string</tipoDoc>
+            <nroDoc>string</nroDoc>
+            <cuentaProducto>string</cuentaProducto>
+            <nomApe>string</nomApe>
+            <fechaCierreActual>dateTime</fechaCierreActual>
+            <fechaContenidoDesde>dateTime</fechaContenidoDesde>
+            <fechaContenidoHasta>dateTime</fechaContenidoHasta>
+            <id>int</id>
+            <pagoMinimo>decimal</pagoMinimo>
+            <piezaUnica>boolean</piezaUnica>
+            <saldoActualDolares>decimal</saldoActualDolares>
+            <saldoActualPesos>decimal</saldoActualPesos>
+            <sucursalRemitente>string</sucursalRemitente>
+            <fechaVencimiento>dateTime</fechaVencimiento>
+        </DocumentoCabalDTO>
+    </ListDocCabalDTO>
+    <excepcion>string</excepcion>
+</AccountSummariesResponse>
+
+        <!--        GET-->
+        <!--        /serviceconsulta.asmx/AccountSummariesList?account=string&datefrom=string&dateuntil=string HTTP/1.1-->
+        <!--        Host: wscabalindividuosdev.cabal.coop-->
+
+        <!--        HTTP/1.1 200 OK-->
+        <!--        Content-Type: text/xml; charset=utf-8-->
+        <!--        Content-Length: length-->

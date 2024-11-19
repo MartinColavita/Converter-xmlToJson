@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <AccountSummariesListResponse xmlns="https://tempuri.org/">
+            <AccountSummariesListResult>
+                <exito>boolean</exito>
+                <ListDocCabalDTO>
+                    <DocumentoCabalDTO>
+                        <emisor>string</emisor>
+                        <tipoDoc>string</tipoDoc>
+                        <nroDoc>string</nroDoc>
+                        <cuentaProducto>string</cuentaProducto>
+                        <nomApe>string</nomApe>
+                        <fechaCierreActual>dateTime</fechaCierreActual>
+                        <fechaContenidoDesde>dateTime</fechaContenidoDesde>
+                        <fechaContenidoHasta>dateTime</fechaContenidoHasta>
+                        <id>int</id>
+                        <pagoMinimo>decimal</pagoMinimo>
+                        <piezaUnica>boolean</piezaUnica>
+                        <saldoActualDolares>decimal</saldoActualDolares>
+                        <saldoActualPesos>decimal</saldoActualPesos>
+                        <sucursalRemitente>string</sucursalRemitente>
+                        <fechaVencimiento>dateTime</fechaVencimiento>
+                    </DocumentoCabalDTO>
+                    <DocumentoCabalDTO>
+                        <emisor>string</emisor>
+                        <tipoDoc>string</tipoDoc>
+                        <nroDoc>string</nroDoc>
+                        <cuentaProducto>string</cuentaProducto>
+                        <nomApe>string</nomApe>
+                        <fechaCierreActual>dateTime</fechaCierreActual>
+                        <fechaContenidoDesde>dateTime</fechaContenidoDesde>
+                        <fechaContenidoHasta>dateTime</fechaContenidoHasta>
+                        <id>int</id>
+                        <pagoMinimo>decimal</pagoMinimo>
+                        <piezaUnica>boolean</piezaUnica>
+                        <saldoActualDolares>decimal</saldoActualDolares>
+                        <saldoActualPesos>decimal</saldoActualPesos>
+                        <sucursalRemitente>string</sucursalRemitente>
+                        <fechaVencimiento>dateTime</fechaVencimiento>
+                    </DocumentoCabalDTO>
+                </ListDocCabalDTO>
+                <excepcion>string</excepcion>
+            </AccountSummariesListResult>
+        </AccountSummariesListResponse>
+    </soap:Body>
+</soap:Envelope>

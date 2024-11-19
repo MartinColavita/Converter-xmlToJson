@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Cuotificacion xmlns="https://tempuri.org/">
+    <TNA>string</TNA>
+    <TEM>string</TEM>
+    <QuotaAmount>string</QuotaAmount>
+    <CFT>string</CFT>
+    <TotalAmount>string</TotalAmount>
+    <Interest>string</Interest>
+    <IvaInterest>string</IvaInterest>
+    <MessageId>string</MessageId>
+    <Description>string</Description>
+</Cuotificacion>
+
+
+        <!--        GET /serviceconsulta.asmx/ConfirmCuotificacion?numeroTarjeta=string&monto=string&cantCuotas=string&plan=string&moneda=string&cvv2=string&fecVencimiento=string&comercio=string&origen=string&userId=string&programId=string HTTP/1.1-->
+        <!--        Host: wscabalindividuosdev.cabal.coop-->
+
+        <!--        HTTP/1.1 200 OK-->
+        <!--        Content-Type: text/xml; charset=utf-8-->
+        <!--        Content-Length: length-->

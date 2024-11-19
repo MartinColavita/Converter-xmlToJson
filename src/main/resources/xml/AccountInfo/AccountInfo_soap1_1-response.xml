@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <AccountInfoResponse xmlns="https://tempuri.org/">
+            <AccountInfoResult>
+                <Liquidations>
+                    <Liquidation>
+                        <Description>string</Description>
+                        <ExpireDate>string</ExpireDate>
+                        <CloseDate>string</CloseDate>
+                        <MinimumPaymentAmountInPesos>string</MinimumPaymentAmountInPesos>
+                        <MinimumPaymentAmountInDollars>string</MinimumPaymentAmountInDollars>
+                        <PesosBalanceAmount>string</PesosBalanceAmount>
+                        <DollarBalanceAmount>string</DollarBalanceAmount>
+                        <Order>string</Order>
+                    </Liquidation>
+                    <Liquidation>
+                        <Description>string</Description>
+                        <ExpireDate>string</ExpireDate>
+                        <CloseDate>string</CloseDate>
+                        <MinimumPaymentAmountInPesos>string</MinimumPaymentAmountInPesos>
+                        <MinimumPaymentAmountInDollars>string</MinimumPaymentAmountInDollars>
+                        <PesosBalanceAmount>string</PesosBalanceAmount>
+                        <DollarBalanceAmount>string</DollarBalanceAmount>
+                        <Order>string</Order>
+                    </Liquidation>
+                </Liquidations>
+                <Limits>
+                    <Limit>
+                        <Description>string</Description>
+                        <Amount>string</Amount>
+                        <Order>string</Order>
+                    </Limit>
+                    <Limit>
+                        <Description>string</Description>
+                        <Amount>string</Amount>
+                        <Order>string</Order>
+                    </Limit>
+                </Limits>
+                <Cuotificacion>
+                    <MinAmount>string</MinAmount>
+                    <MaxAmount>string</MaxAmount>
+                    <MinQuotas>string</MinQuotas>
+                    <MaxQuotas>string</MaxQuotas>
+                    <Commerce>string</Commerce>
+                    <CardNumberList>
+                        <CardHolder xsi:nil="true" />
+                        <CardHolder xsi:nil="true" />
+                    </CardNumberList>
+                    <ValidationCode>string</ValidationCode>
+                </Cuotificacion>
+                <MessageId>string</MessageId>
+                <Description>string</Description>
+            </AccountInfoResult>
+        </AccountInfoResponse>
+    </soap:Body>
+</soap:Envelope>

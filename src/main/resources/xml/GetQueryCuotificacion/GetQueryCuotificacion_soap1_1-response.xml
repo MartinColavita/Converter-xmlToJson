@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <GetQueryCuotificacionResponse xmlns="https://tempuri.org/">
+            <GetQueryCuotificacionResult>
+                <TNA>string</TNA>
+                <TEM>string</TEM>
+                <QuotaAmount>string</QuotaAmount>
+                <CFT>string</CFT>
+                <TotalAmount>string</TotalAmount>
+                <Interest>string</Interest>
+                <IvaInterest>string</IvaInterest>
+                <MessageId>string</MessageId>
+                <Description>string</Description>
+            </GetQueryCuotificacionResult>
+        </GetQueryCuotificacionResponse>
+    </soap:Body>
+</soap:Envelope>

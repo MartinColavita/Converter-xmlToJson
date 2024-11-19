@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="https://www.w3.org/2001/XMLSchema"
+                 xmlns:soap12="https://www.w3.org/2003/05/soap-envelope">
+    <soap12:Body>
+        <SetAvisoViajeTs xmlns="https://tempuri.org/">
+            <cardNumber>string</cardNumber>
+            <accountNumber>string</accountNumber>
+            <accountComponent>string</accountComponent>
+            <dateFrom>string</dateFrom>
+            <dateUntil>string</dateUntil>
+            <codCountry>string</codCountry>
+            <desCountry>string</desCountry>
+            <userId>string</userId>
+            <programId>string</programId>
+            <mailto>string</mailto>
+        </SetAvisoViajeTs>
+    </soap12:Body>
+</soap12:Envelope>
+
+        <!--        POST /serviceconsulta.asmx HTTP/1.1-->
+        <!--        Host: wscabalindividuosdev.cabal.coop-->
+        <!--        Content-Type: application/soap+xml; charset=utf-8-->
+        <!--        Content-Length: length-->
+
+        <!--        HTTP/1.1 200 OK-->
+        <!--        Content-Type: application/soap+xml; charset=utf-8-->
+        <!--        Content-Length: length-->

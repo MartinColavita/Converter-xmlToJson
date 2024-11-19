@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <SetAvisoViajeTsResponse xmlns="https://tempuri.org/">
+            <SetAvisoViajeTsResult>
+                <MessageId>string</MessageId>
+                <Description>string</Description>
+                <ResultValue>string</ResultValue>
+            </SetAvisoViajeTsResult>
+        </SetAvisoViajeTsResponse>
+    </soap:Body>
+</soap:Envelope>

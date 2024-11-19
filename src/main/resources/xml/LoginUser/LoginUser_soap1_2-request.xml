@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:soap12="https://www.w3.org/2003/05/soap-envelope">
+    <soap12:Body>
+        <LoginUser xmlns="https://tempuri.org/">
+            <documentTypeId>string</documentTypeId>
+            <documentNumber>string</documentNumber>
+            <genderType>string</genderType>
+            <userName>string</userName>
+            <password>string</password>
+            <oriIP>string</oriIP>
+            <web>string</web>
+            <programId>string</programId>
+        </LoginUser>
+    </soap12:Body>
+</soap12:Envelope>
+
+<!--        HTTP/1.1 200 OK-->
+<!--        Content-Type: application/soap+xml; charset=utf-8-->
+<!--        Content-Length: length-->
+
+<!--        POST /serviceconsulta.asmx HTTP/1.1-->
+<!--        Host: wscabalindividuosdev.cabal.coop-->
+<!--        Content-Type: application/soap+xml; charset=utf-8-->
+<!--        Content-Length: length-->

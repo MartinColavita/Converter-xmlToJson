@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AnnualConsumptionReport xmlns="https://tempuri.org/">
+    <Consumptions>
+        <Consumption>
+            <Money>string</Money>
+            <Period>string</Period>
+            <Limit>string</Limit>
+            <AmmountQuotes>string</AmmountQuotes>
+            <Payments>string</Payments>
+            <Interests>string</Interests>
+            <Balance>string</Balance>
+            <MinimumPayment>string</MinimumPayment>
+        </Consumption>
+        <Consumption>
+            <Money>string</Money>
+            <Period>string</Period>
+            <Limit>string</Limit>
+            <AmmountQuotes>string</AmmountQuotes>
+            <Payments>string</Payments>
+            <Interests>string</Interests>
+            <Balance>string</Balance>
+            <MinimumPayment>string</MinimumPayment>
+        </Consumption>
+    </Consumptions>
+    <MessageId>string</MessageId>
+    <Description>string</Description>
+</AnnualConsumptionReport>
+
+        <!--        GET /serviceconsulta.asmx/AnnualConsumptionReportInfo?accountNumber=string&web=string&userId=string&programId=string HTTP/1.1-->
+        <!--        Host: wscabalindividuosdev.cabal.coop-->
+
+        <!--        HTTP/1.1 200 OK-->
+        <!--        Content-Type: text/xml; charset=utf-8-->
+        <!--        Content-Length: length-->
+

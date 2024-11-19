@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Message xmlns="https://tempuri.org/">
+    <MessageId>string</MessageId>
+    <Description>string</Description>
+    <ResultValue>string</ResultValue>
+</Message>
+
+        <!--        POST /serviceconsulta.asmx/SetAvisoViajeTs HTTP/1.1-->
+        <!--        Host: wscabalindividuosdev.cabal.coop-->
+        <!--        Content-Type: application/x-www-form-urlencoded-->
+        <!--        Content-Length: length-->
+
+        <!--        cardNumber=string&accountNumber=string&accountComponent=string&dateFrom=string&dateUntil=string&codCountry=string&desCountry=string&userId=string&programId=string&mailto=string-->
+        <!--        HTTP/1.1 200 OK-->
+        <!--        Content-Type: text/xml; charset=utf-8-->
+        <!--        Content-Length: length-->

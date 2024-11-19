@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuestionsUser xmlns="https://tempuri.org/">
+    <Questions>
+        <Question>
+            <Topic>int</Topic>
+            <Description>string</Description>
+            <Answers>
+                <Answer d5p1:nil="true" xmlns:d5p1="https://www.w3.org/2001/XMLSchema-instance"/>
+                <Answer d5p1:nil="true" xmlns:d5p1="https://www.w3.org/2001/XMLSchema-instance"/>
+            </Answers>
+            <Number>int</Number>
+            <CorrectAnswerNumber>int</CorrectAnswerNumber>
+            <Type>int</Type>
+        </Question>
+        <Question>
+            <Topic>int</Topic>
+            <Description>string</Description>
+            <Answers>
+                <Answer d5p1:nil="true" xmlns:d5p1="https://www.w3.org/2001/XMLSchema-instance"/>
+                <Answer d5p1:nil="true" xmlns:d5p1="https://www.w3.org/2001/XMLSchema-instance"/>
+            </Answers>
+            <Number>int</Number>
+            <CorrectAnswerNumber>int</CorrectAnswerNumber>
+            <Type>int</Type>
+        </Question>
+    </Questions>
+    <ErrorId>string</ErrorId>
+    <ErrorDescription>string</ErrorDescription>
+</QuestionsUser>
+
+        <!--        GET /serviceconsulta.asmx/GetQuestionsUser?accountNumber=string&component=string&web=string&ProductSubcategory=string&programId=string HTTP/1.1-->
+        <!--        Host: wscabalindividuosdev.cabal.coop-->
+
+        <!--        HTTP/1.1 200 OK-->
+        <!--        Content-Type: text/xml; charset=utf-8-->
+        <!--        Content-Length: length-->

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LoginUserResult xmlns="https://tempuri.org/">
+    <UserId>long</UserId>
+    <ResultId>string</ResultId>
+    <Description>string</Description>
+    <genderType>string</genderType>
+    <userName>string</userName>
+    <PasswordPolicyId>int</PasswordPolicyId>
+    <FecUltIng>string</FecUltIng>
+    <AssociatedEntity>
+        <string>string</string>
+        <string>string</string>
+    </AssociatedEntity>
+</LoginUserResult>
+
+
+<!--        POST /serviceconsulta.asmx/LoginUser HTTP/1.1-->
+<!--        Host: wscabalindividuosdev.cabal.coop-->
+<!--        Content-Type: application/x-www-form-urlencoded-->
+<!--        Content-Length: length-->
+
+<!--        documentTypeId=string&documentNumber=string&genderType=string&userName=string&password=string&oriIP=string&web=string&programId=string-->
+<!--        HTTP/1.1 200 OK-->
+<!--        Content-Type: text/xml; charset=utf-8-->
+<!--        Content-Length: length-->
+

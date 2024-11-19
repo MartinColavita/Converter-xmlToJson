@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="https://www.w3.org/2001/XMLSchema"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <AccountSelectionByDocumentNewCore xmlns="https://tempuri.org/">
+            <documentType>string</documentType>
+            <documentNumber>string</documentNumber>
+            <genderType>string</genderType>
+            <web>string</web>
+            <userId>string</userId>
+            <programId>string</programId>
+        </AccountSelectionByDocumentNewCore>
+    </soap:Body>
+</soap:Envelope>
+
+        <!--        POST /serviceconsulta.asmx HTTP/1.1-->
+        <!--        Host: wscabalindividuosdev.cabal.coop-->
+        <!--        Content-Type: text/xml; charset=utf-8-->
+        <!--        Content-Length: length-->
+        <!--        SOAPAction: "https://tempuri.org/AccountSelectionByDocumentNewCore"-->
+
+        <!--        HTTP/1.1 200 OK-->
+        <!--        Content-Type: text/xml; charset=utf-8-->
+        <!--        Content-Length: length-->
